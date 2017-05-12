@@ -7,5 +7,8 @@ https://Henrilin28@gitlab.com/Henrilin28/citydata.git
 
 import geopandas as gpd
 
+
+file too big may not work
 df = gpd.read('./citydata/bluiding_footprints.geojson')
+
 df.plot()
